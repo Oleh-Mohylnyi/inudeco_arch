@@ -1,0 +1,38 @@
+{
+  "name": "inudeco_arch",
+  "version": "1.0.0",
+  "description": "web view of data archive inudeco",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "googleapis": "^39.2.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.0.8",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.5",
+    "koa2-cors": "^2.0.6",
+    "ejs": "2.5.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development node app.js",
+    "pro": "NODE_ENV=production node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oleh-Mohylnyi/inudeco_arch.git"
+  },
+  "keywords": [
+    "inudeco",
+    "archive",
+    "foto"
+  ],
+  "author": "Oleh Mohylnyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oleh-Mohylnyi/inudeco_arch/issues"
+  },
+  "homepage": "https://github.com/Oleh-Mohylnyi/inudeco_arch#readme"
+}
